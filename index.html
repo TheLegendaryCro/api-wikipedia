@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Search Engine</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+		integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+</head>
+
+<body>
+
+		<main>
+
+			<header class="searchForm-container">
+
+				<img src="https://image.ibb.co/e6vOFQ/wikipedia.png" alt="Wikipedia Logo">
+
+				<form class="searchForm">
+					<input type="search" class="searchForm-input">
+					<button type="submit" class="icon searchIcon">
+						<img src="https://image.ibb.co/cpG8zk/search.png" alt="Magnifying Glass Icon">
+					</button>
+					<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener" class="icon randomIcon">
+						<img src="https://image.ibb.co/fR5OX5/random.png" alt="Shuffle Icon">
+					</a>
+				</form>
+				<div class="socialicons">
+					<a href="https://github.com/TheLegendaryCro" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+				</div>
+
+			</header>
+
+			<section class="resultsContainer">
+
+			</section>
+
+			<section class="moreResults">
+				<p class="hidden">No more results. Begin a new search.</p>
+				<button class="moreResults-button hidden">Load More</button>
+			</section>
+
+			<div class="loading-indicator hidden"></div>
+
+		</main>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
